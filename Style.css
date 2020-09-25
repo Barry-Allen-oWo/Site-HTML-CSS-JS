@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Header-Inicial {
+    background-color:black;
+    padding: 15px;
+}
+
+.Header-Inicial ul li {
+    list-style: none;
+}
+
+.Header-Inicial ul li a {
+    font-size: 24px;
+    font-family: 'Secular One', sans-serif;
+    text-decoration: none;
+    color: wheat;
+    padding: 12px;
+}
+
+.Header-Inicial ul li a:hover {
+    border-bottom: 5px solid aqua;
+}
