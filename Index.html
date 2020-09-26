@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site dos Inscritos</title>
     <link rel="stylesheet" href="Style.css">
+    <script src="Script.js"></script>
 </head>
 <body>
     
@@ -26,13 +27,16 @@
 
     </header>
 
-    <form action="Index.html" method="post">
+    <div class="Log">
 
-        <input type="text" class="Name" placeholder="Name">
-        <input type="password" placeholder="Password">
-        <input type="submit" value="Enviar" class="Envio">
+        <form action="Index.html" method="post">
+            <h1 class="Title">Login</h1></br>
+            <input type="text" class="Name" placeholder="Name" id="N"></br>
+            <input type="password" placeholder="Password" id="P"></br>
+            <input type="submit" value="Enviar" class="Envio" onclick="Verificy()"></br>
+        </form>
 
-    </form>
+    </div>
 
 </body>
 </html>

@@ -17,9 +17,62 @@
     font-family: 'Secular One', sans-serif;
     text-decoration: none;
     color: wheat;
-    padding: 12px;
+    padding: 14px;
 }
 
 .Header-Inicial ul li a:hover {
-    border-bottom: 5px solid aqua;
+    border-bottom: 2px solid aqua;
+}
+
+.Log {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #EAEAEA;
+    border-radius: 5px;
+    padding: 45px;
+    display: inline-flexbox;
+}
+
+.Title {
+    font-family: 'Bebas Neue', cursive;
+    color:burlywood;
+    display: inline-block;
+    background-color: #CDCBCB;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+form input[type="text"], form input[type="password"] {
+    margin: 5px;
+    transition: 0.5s;
+    border-radius: 4px;
+    border-color: darkgray;
+    padding: 5px;
+    width: 150px;
+}
+
+form input[type="submit"] {
+    border-radius: 5px;
+    border-color: greenyellow;
+    padding: 7px;
+    background-color: greenyellow;
+    color: darkred;
+    width: 100px;
+    transition: 1.5s;
+}
+
+form input[type="submit"]:hover {
+    transition: 0.5s;
+    width: 125px;
+    background-color: chartreuse;
+    border-color: chartreuse;
+}
+
+form input[type="text"]:focus, form input[type="password"]:focus {
+    width: 190px;
+    border-color: gray;
 }
